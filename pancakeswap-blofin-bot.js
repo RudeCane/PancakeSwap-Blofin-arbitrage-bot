@@ -159,10 +159,5 @@ setInterval(checkArbitrage, 10000);
 
 console.log(`🚀 Bot started in ${DRY_RUN ? 'DRY RUN' : 'LIVE'} mode.`);
 require('dotenv').config();
-const BLOFIN_API_KEY = process.env.BLOFIN_API_KEY;
-const BLOFIN_API_SECRET = process.env.BLOFIN_API_SECRET;
-const PRIVATE_KEY = process.env.WALLET_PRIVATE_KEY;
-const DRY_RUN = process.env.DRY_RUN === 'true';
-# .gitignore
-.env
+
 
